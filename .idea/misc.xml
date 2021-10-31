@@ -3,7 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_main.xml" value="0.2617753623188406" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_album.xml" value="0.13323201621073963" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_band.xml" value="0.15729166666666666" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_main2.xml" value="0.1578125" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_main3.xml" value="0.1578125" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/activity_song.xml" value="0.18333333333333332" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/album_activity.xml" value="0.1" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/album_item.xml" value="0.12613981762917933" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/band_activity.xml" value="0.12239583333333333" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/band_item.xml" value="0.171875" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/song_activity.xml" value="0.1" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/song_item.xml" value="0.15729166666666666" />
+        <entry key="..\:/ASPrj/musiclibrarykyleliuxianqi/app/src/main/res/layout/text_row_item.xml" value="0.19791666666666666" />
       </map>
     </option>
   </component>
