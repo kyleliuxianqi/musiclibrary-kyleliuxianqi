@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="My Favorite Band❤"
+        android:text="My Favorite Band❤    by LIU Xianqi 61551"
         android:textSize="18pt"
         android:textColor="@color/black"/>
 

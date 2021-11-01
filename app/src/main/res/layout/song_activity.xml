@@ -4,12 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:id="@+id/album_image_head"
+        android:contentDescription="@string/album_icon" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:id="@+id/which_album"
-        android:textSize="20pt" />
+        android:textSize="14pt"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view3"

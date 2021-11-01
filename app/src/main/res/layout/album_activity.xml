@@ -8,11 +8,13 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:id="@+id/whose_album"
-        android:textSize="20pt" />
+        android:textSize="20pt"
+        android:textColor="@color/black"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
         />
 </LinearLayout>

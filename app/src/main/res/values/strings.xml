@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">musiclibrary-kyleliuxianqi</string>
+    <string name="album_icon">💿</string>
+    <string name="song_icon">🎧</string>
 </resources>

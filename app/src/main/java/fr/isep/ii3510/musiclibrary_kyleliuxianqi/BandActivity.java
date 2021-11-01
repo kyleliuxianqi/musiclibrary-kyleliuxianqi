@@ -83,7 +83,30 @@ public class BandActivity extends AppCompatActivity {
                     String albumName = list.get(1);
                     if(!albumList.contains(albumName)){
                         albumList.add(albumName);
-                        Objects.requireNonNull(bandMap.get(bandName)).getAlbumList().add(new Album(albumName));
+                        int albumPic = 0;
+                        switch (albumName){
+                            case "Dark Side of the Moon": {
+                                albumPic = R.drawable.pf_dsotm;
+                                break;
+                            }
+                            case "Wish You Were Here": {
+                                albumPic = R.drawable.pf_wywh;
+                                break;
+                            }
+                            case "The Platinum Collection": {
+                                albumPic = R.drawable.q_tpc;
+                                break;
+                            }
+                            case "In Rainbows": {
+                                albumPic = R.drawable.rh_ir;
+                                break;
+                            }
+                            case "OK Computer": {
+                                albumPic = R.drawable.rh_oc;
+                                break;
+                            }
+                        }
+                        Objects.requireNonNull(bandMap.get(bandName)).getAlbumList().add(new Album(albumName,albumPic));
                     }
                 }
             }

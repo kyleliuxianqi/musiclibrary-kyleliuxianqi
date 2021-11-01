@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,11 +18,13 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.ViewHolder> 
     private final List<Album> mAlbumList;
     static class ViewHolder extends RecyclerView.ViewHolder{
         View albumView;
+        ImageView albumImage;
         TextView albumName;
 
         public ViewHolder(View view){
             super(view);
             albumView = view;
+            albumImage = (ImageView) view.findViewById(R.id.album_image);
             albumName = (TextView) view.findViewById(R.id.album_name);
         }
     }
@@ -40,6 +43,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position){
         Album album = mAlbumList.get(position);
+        holder.albumImage.setImageResource(album.getImageId());
         holder.albumName.setText(album.getNameAlbum());
 
         holder.albumView.setOnClickListener(view -> {
